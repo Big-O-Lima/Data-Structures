@@ -1,4 +1,4 @@
-_slides available [here](http://htmlpreview.github.io/?https://github.com/Big-O-Lima/Data-Structures/blob/Stacks-and-Queues/Source/Slides/Queue.html)_
+_slides available [here](http://htmlpreview.github.io/?https://github.com/Big-O-Lima/Data-Structures/blob/master/Source/Slides/Queue.html)_
 
 #QUEUE
 by Jose Torres [@CoderPug](http://www.github.com/coderpug)
