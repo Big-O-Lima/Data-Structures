@@ -1,5 +1,5 @@
 
-_slides available [here](http://htmlpreview.github.io/?(Source/Slides/Stack.html))
+_slides available [here](http://htmlpreview.github.io/?{repo}/Source/Slides/Stack.html)
 
 #STACK
 by Jose Torres [@CoderPug](http://www.github.com/coderpug)
