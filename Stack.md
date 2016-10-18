@@ -1,4 +1,6 @@
 
+_slides available [here](http://htmlpreview.github.io/?https://github.com/Big-O-Lima/Data-Structures/blob/Stacks-and-Queues/Source/Slides/Stack.html)_
+
 #STACK
 by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 
