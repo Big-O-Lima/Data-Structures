@@ -1,5 +1,5 @@
 
-_slides available [here](http://htmlpreview.github.io/?{repo}/Source/Slides/Stack.html)
+_slides available [here](http://htmlpreview.github.io/?https://github.com/Big-O-Lima/Data-Structures/blob/master/Source/Slides/Stack.html)_
 
 #STACK
 by Jose Torres [@CoderPug](http://www.github.com/coderpug)
