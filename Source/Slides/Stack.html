@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>class: center, middle, inverse</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #353839;
+}
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #FD811B;
+}
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+li { margin: 8px 0 8px 0; }
+li p { line-height: 1.25em; }
+.red { color: #fa0000; }
+.large { font-size: 2em; }
+a, a > code {
+  color: #1B83B6;
+  text-decoration: none;
+}
+code {
+  background: #e7e8e2;
+  border-radius: 5px;
+}
+.remark-code, .remark-inline-code { 
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.8em;
+}
+.remark-code-line-highlighted     { 
+  background-color: #373832; 
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+.inverse {
+  background: #FDBF2A;
+}
+.inverse h1, .inverse h2 {
+  color: #F4F4F4;
+  line-height: 0.8em;
+}
+
+/* Slide-specific styling */
+#slide-inverse .footnote {
+  bottom: 12px;
+  left: 20px;
+}
+#slide-how .slides {
+  font-size: 0.9em;
+  position: absolute;
+  top:  151px;
+  right: 140px;
+}
+#slide-how .slides h3 {
+  margin-top: 0.2em;
+}
+#slide-how .slides .first, #slide-how .slides .second {
+  padding: 1px 20px;
+  height: 90px;
+  width: 120px;
+  -moz-box-shadow: 0 0 10px #777;
+  -webkit-box-shadow: 0 0 10px #777;
+  box-shadow: 0 0 10px #777;
+}
+#slide-how .slides .first {
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+}
+#slide-how .slides .second {
+  position: relative;
+  background: #fff;
+  z-index: 0;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}    
+		</style>
+	</head>
+	<body>
+		<textarea id="source">
+layout: true
+class: center, middle, inverse
+---
+
+#STACK
+by Jose Torres [@CoderPug](http://www.github.com/coderpug)
+
+---
+layout: false
+
+##Concepts
+- ADT Abstract Data Type
+- Flexible size ( don't have to pre allocate memory, just add as you go ) ( When implemented with linked lists ) 
+- LIFO scheme for insertion and deletion ( Last In First Out )
+
+---
+layout: false
+
+##Operations
+- Push(:object) - inserts element at top
+- Pop() - remove element at top
+- Auxiliary 
+  - top() - returns last element without removing it
+  - size() - returns number of elements stored
+  - isEmpty() - returns boolean
+
+---
+layout: false
+
+##Representation
+- When using Linked List is composed as :
+  - Node: { data, next< Node > }
+  - Stack: { pointerTop< Node > , func... }
+
+---
+layout: false
+
+##Complexity
+- Push : O(1)
+- Pop : O(1)
+- Top/Peek : O(1)
+
+---
+layout: false
+
+##Direct Applications
+- Page visited web history
+- Undo sequence in editor
+- HTML Tag matching
+- ...
+
+---
+
+##Problems
+
+- Hackerrank: Cracking the Coding <https://www.hackerrank.com/challenges/ctci-balanced-brackets>
+- Hackerrank: Stacks <https://www.hackerrank.com/domains/data-structures/stacks>
+
+---
+
+##Bibliography
+
+- <https://en.wikipedia.org/wiki/List_of_data_structures>
+- <http://coltech.vnu.edu.vn/~hieulq/ctdlgt/Lec04_StacksQueues.pdf>
+- <http://www.knowstack.com/stack-queue-implementation-in-objective-c/>
+
+---
+layout: true
+class: center, middle, inverse
+---
+#THANKS!
+		</textarea>
+		<script src="http://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+		<script>
+			var slideshow = remark.create();
+		</script>
+		<script></script>
+	</body>
+</html>
