@@ -1,3 +1,4 @@
+
 _slides available [here](http://htmlpreview.github.io/?https://github.com/Big-O-Lima/Data-Structures/blob/master/Source/Slides/Queue.html)_
 
 #QUEUE
