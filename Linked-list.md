@@ -11,14 +11,20 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - Null value on the pointer means the end of the list.
 - Allows only forward iterations.
 
+![image](Source/Images/linked-list-01.png)
+
 #### Doubly-Linked list
 - A Singly-Linked list where each element (node) also contains a pointer reference to the previous element (node).
 - Allows forward and backward iterations.
+
+![image](Source/Images/linked-list-02.png)
 
 ## Cycles
 - Happens when the 'last' element (node) of the list points to a previous element inside the list.
 - Cause infinite loops.
 - Approaches for solving this issue : 
+
+![image](Source/Images/linked-list-03.png)
 
 #### A
 - Include a boolean value inside the element (node) definition.
@@ -52,3 +58,4 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - <https://www.hackerrank.com/topics/linked-lists>
 
 
+*I totally stole the images from HackerRank - <https://www.hackerrank.com/topics/linked-lists>*

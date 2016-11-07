@@ -9,6 +9,8 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - Flexible size ( don't have to pre allocate memory, just add as you go ) ( When implemented with linked lists ) 
 - LIFO scheme for insertion and deletion ( Last In First Out )
 
+![image](Source/Images/stack-01.png)
+
 ##Operations
 - Push(:object) - inserts element at top
 - Pop() - remove element at top
@@ -43,3 +45,5 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - <https://en.wikipedia.org/wiki/List_of_data_structures>
 - <http://coltech.vnu.edu.vn/~hieulq/ctdlgt/Lec04_StacksQueues.pdf>
 - <http://www.knowstack.com/stack-queue-implementation-in-objective-c/>
+
+*I totally stole the images from HackerRank - <https://www.hackerrank.com/topics/stacks>*

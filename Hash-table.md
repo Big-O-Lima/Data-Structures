@@ -9,6 +9,7 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - Used when speed is required for insertion, deletion and lookup.
 - Does not support duplicated elements.
 
+![image](Source/Images/hash-table-01.png)
 
 ##Operations
 - The hash function takes a key as input an output an integer/hash value that maps to a specific position in the table/array.
@@ -29,10 +30,14 @@ When two or more keys receive the same index from the hash function.
 - Everytime this happens it increases chances of more collisions. (problem known as clustering).
 - Changes worst case scenarios of insertion, deletion and lookup to O(n).
 
+![image](Source/Images/hash-table-02.png)
+
 ##### Method B. Separate Chaining
 - For this model the table/array is an array of pointers to individual linked lists.
 - When collision occurs insertion can be done at constant time. O(1).
 - Worst case scenario is O(n/k) where k is size of the hash table -> O(n). Theoretically the same as a worst case time for a lookup in Linked lists, but in real world it makes a huge improvement.
+
+![image](Source/Images/hash-table-03.png)
 
 ##Representation
 - A hash function + a hash table / array / linked list.
@@ -59,3 +64,5 @@ When two or more keys receive the same index from the hash function.
 - <https://www.youtube.com/watch?v=h2d9b_nEzoA>
 - <https://www.hackerrank.com/topics/hashing> <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382015000200423>
 
+
+*I totally stole the images from CS50 - <https://www.youtube.com/watch?v=h2d9b_nEzoA>*
