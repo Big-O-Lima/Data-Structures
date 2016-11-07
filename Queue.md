@@ -9,6 +9,8 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - Flexible size ( don't have to pre allocate memory, just add as you go ) ( When implemented with linked lists ) 
 - FIFO scheme ( First In First Out )
 
+![image](Source/Images/queue-01.png)
+
 ##Operations
 - Enqueue(:object) - inserts element at the tail (end)
 - Dequeue() - remove and returns element at the head (front)
@@ -41,3 +43,5 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - <https://en.wikipedia.org/wiki/List_of_data_structures>
 - <http://coltech.vnu.edu.vn/~hieulq/ctdlgt/Lec04_StacksQueues.pdf>
 - <http://www.knowstack.com/stack-queue-implementation-in-objective-c/>
+
+*I totally stole the images from HackerRank - <https://www.hackerrank.com/topics/queues>*

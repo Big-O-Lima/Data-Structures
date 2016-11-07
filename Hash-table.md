@@ -65,4 +65,4 @@ When two or more keys receive the same index from the hash function.
 - <https://www.hackerrank.com/topics/hashing> <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382015000200423>
 
 
-*I totally stole the images from CS50 - <https://www.youtube.com/watch?v=h2d9b_nEzoA*
+*I totally stole the images from CS50 - <https://www.youtube.com/watch?v=h2d9b_nEzoA>*
