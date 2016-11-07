@@ -7,6 +7,7 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 - Flexible size. It can grow over time.
 - Store data of any type.
 - Used when speed is required for insertion, deletion and lookup.
+- Does not support duplicated elements.
 
 
 ##Operations
@@ -56,5 +57,5 @@ When two or more keys receive the same index from the hash function.
 
 - <https://en.wikipedia.org/wiki/List_of_data_structures>
 - <https://www.youtube.com/watch?v=h2d9b_nEzoA>
-- <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382015000200423>
+- <https://www.hackerrank.com/topics/hashing> <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382015000200423>
 
