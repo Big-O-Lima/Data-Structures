@@ -33,29 +33,36 @@ by Jose Torres [@CoderPug](http://www.github.com/coderpug)
 #### B
 - Use an algorithm that keeps multiple references and iterate over the list to check if at some point the references are the same.
 
-##Operations
+## Operations
 -
 
-##Representation
+## Representation
 - 
 
-##Complexity
+## Complexity
 - Insert: O(1) / O(n)
 - Remove/Deletion: O(1) / O(n)
 - Lookup: O(n)
 
-##Direct Applications
+## Direct Applications
 - As a real basic structure it can be used whenever grow flexibility in a list is required. i.e queues, stacks
 
-##Problems
+## Problems
 
 - Hackerrank: Cracking the Coding <https://www.hackerrank.com/challenges/ctci-linked-list-cycle>
 - Hackerrank: Linked-lists <https://www.hackerrank.com/domains/data-structures/linked-lists>
+- Leetcode: Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/
+- Leetcode: Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/
+- Leetcode: Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/
+- Leetcode: Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
+- Leetcode: Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- Leetcode: Reorder List - https://leetcode.com/problems/reorder-list/
 
-##Bibliography
+## Bibliography
 
 - <https://en.wikipedia.org/wiki/List_of_data_structures>
 - <https://www.hackerrank.com/topics/linked-lists>
+- <https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU>
 
 
 *I totally stole the images from HackerRank - <https://www.hackerrank.com/topics/linked-lists>*
